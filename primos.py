@@ -3,7 +3,7 @@ def is_primo(value):
     # valor % div -> resto
     div = 2
     while div < value:
-        if value % 2 == 0:
+        if value % div == 0:
 
             return False
         div += 1
@@ -28,4 +28,9 @@ class TestPrimos(unittest.TestCase):
     def test_6(self):
         result = is_primo(6)
         self.assertEqual(result, False)
-unittest.main()
+    def test_19(self):
+       result = is_primo(19)
+       self.assertEqual(result, True)
+        
+if __name__ == "__main__":
+    unittest.main()
