@@ -1,1 +1,1 @@
-Determinador de Numeros Primos
+Determinador de Numeros Primos, Por Agustin Correnti
